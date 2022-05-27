@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Tony Tarracino Jr.
+tony_tarracino_jr = {
+	name = tony_tarracino_jr
+	portraits = {
+		civilian = {
+			#Custom image for Tony Tarracino Jr.
+			large = "/gfx/leaders/KYS/tTfJRYhQ-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {  legitimate_heir cornered_fox }
+	}
+}
+}

@@ -1,0 +1,28 @@
+focus_tree = {
+	id = tpw
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TPW
+		}
+	}
+	#Fuck you, play a different country
+	focus = {
+		id = TPW_fuckyouplayadifferentcountry
+		icon = GFX_TPW_fuckyouplayadifferentcountry-23139
+		x = 5
+		y = 2
+		cost = 21
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		select_effect = {
+add_political_power = -2000
+
+
+}
+	}
+
+}

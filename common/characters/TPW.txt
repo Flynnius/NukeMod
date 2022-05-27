@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Wasteland
+wasteland = {
+	name = wasteland
+	portraits = {
+		civilian = {
+			#Custom image for Wasteland
+			large = "/gfx/leaders/TPW/LjYwmQrI-231212.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  }
+	}
+}
+}

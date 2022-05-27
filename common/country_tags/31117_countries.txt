@@ -1,0 +1,2 @@
+TPW = "countries/Tampa Wastes.txt"
+KYS = "countries/Conch Republic.txt"

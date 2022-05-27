@@ -1,0 +1,385 @@
+focus_tree = {
+	id = kys
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KYS
+		}
+	}
+	#Continue the Conch
+	focus = {
+		id = KYS_continue_the_conch
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_conch_policy  }
+		mutually_exclusive = { focus = KYS_coup_of_the_conch  }
+	}
+
+	#State of the Conch Republic
+	focus = {
+		id = KYS_state_of_the_conch_republic
+		icon = GFX_goal_unknown
+		x = 10
+		y = 0
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Conch Policy
+	focus = {
+		id = KYS_conch_policy
+		icon = GFX_goal_unknown
+		x = 13
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_state_of_the_conch_republic  }
+	}
+
+	#Conch Nation
+	focus = {
+		id = KYS_conch_nation
+		icon = GFX_goal_unknown
+		x = 7
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_state_of_the_conch_republic  }
+	}
+
+	#Coup of the Conch
+	focus = {
+		id = KYS_coup_of_the_conch
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_conch_policy  }
+		mutually_exclusive = { focus = KYS_coup_of_the_conch  }
+	}
+
+	#The Inner Conch
+	focus = {
+		id = KYS_the_inner_conch
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_conch_nation  }
+	}
+
+	#The Outer Conch
+	focus = {
+		id = KYS_the_outer_conch
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_conch_nation  }
+	}
+
+	#Develop the Conch's Education
+	focus = {
+		id = KYS_developtheconchseducation
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = KYS_the_inner_conch  }
+	}
+
+	#The Conch's Prosperity
+	focus = {
+		id = KYS_theconchsprosperity
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_developtheconchseducation  }
+	}
+
+	#The Conch's People
+	focus = {
+		id = KYS_theconchspeople
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = KYS_theconchsprosperity  }
+	}
+
+	#Conch Construction
+	focus = {
+		id = KYS_conch_construction
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KYS_theconchspeople  }
+	}
+
+	#Investigate our surroundings
+	focus = {
+		id = KYS_investigate_our_surroundings
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_the_outer_conch  }
+	}
+
+	#Approach our Northern Neighbors
+	focus = {
+		id = KYS_approach_our_northern_neighbors
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = KYS_investigate_our_surroundings  }
+	}
+
+	#Eastern Islands
+	focus = {
+		id = KYS_eastern_islands
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = KYS_approach_our_northern_neighbors  }
+	}
+
+	#Southern Exploration
+	focus = {
+		id = KYS_southern_exploration
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = KYS_eastern_islands  }
+	}
+
+	#Back to the Homestead
+	focus = {
+		id = KYS_back_to_the_homestead
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#Eastern Expedition
+	focus = {
+		id = KYS_eastern_expedition
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#Crocodile Rock
+	focus = {
+		id = KYS_crocodile_rock
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#Southern Expedition
+	focus = {
+		id = KYS_southern_expedition
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#Whole of Body, Whole of Conch
+	focus = {
+		id = KYS_wholeofbodywholeofconch
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_conch_construction  } prerequisite = { focus = KYS_southern_exploration  }
+	}
+
+	#The Conch's Strongman
+	focus = {
+		id = KYS_theconchsstrongman
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_coup_of_the_conch  }
+	}
+
+	#The Conch's Republic
+	focus = {
+		id = KYS_theconchsrepublic
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_continue_the_conch  }
+	}
+
+	#The Holy Conch
+	focus = {
+		id = KYS_the_holy_conch
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_theconchsstrongman  }
+	}
+
+	#United in Faith
+	focus = {
+		id = KYS_united_in_faith
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_theconchsrepublic  }
+	}
+
+	#The Conch's Dissenters
+	focus = {
+		id = KYS_theconchsdissenters
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = KYS_the_holy_conch  }
+	}
+
+	#One Conch, Over All
+	focus = {
+		id = KYS_oneconchoverall
+		icon = GFX_goal_unknown
+		x = 11
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_theconchsdissenters  }
+	}
+
+	#Opponents of the Conch
+	focus = {
+		id = KYS_opponents_of_the_conch
+		icon = GFX_goal_unknown
+		x = 15
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_united_in_faith  }
+	}
+
+	#The Conch Democracy
+	focus = {
+		id = KYS_the_conch_democracy
+		icon = GFX_goal_unknown
+		x = 15
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_opponents_of_the_conch  }
+	}
+
+	#The Conch Democracy
+	focus = {
+		id = KYS_the_conch_democracy
+		icon = GFX_goal_unknown
+		x = 15
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KYS_opponents_of_the_conch  }
+	}
+
+}

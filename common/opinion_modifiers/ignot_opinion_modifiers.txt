@@ -1,0 +1,12 @@
+opinion_modifiers = {
+
+	friendly_attitude = {
+		value = 50
+		months = 24
+	}
+	non-threat_attitude = {
+		value = 20
+		months = 48
+	}
+	
+}
