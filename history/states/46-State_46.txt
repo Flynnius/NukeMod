@@ -1,0 +1,16 @@
+state={
+	id=46
+	name="Fort Meade"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		9897 6236
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

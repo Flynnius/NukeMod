@@ -1,0 +1,16 @@
+state={
+	id=11
+	name="Homestead"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 9988 9989 6129
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

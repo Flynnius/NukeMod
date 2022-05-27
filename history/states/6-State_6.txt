@@ -1,0 +1,16 @@
+state={
+	id=6
+	name="Parks"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 9847
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

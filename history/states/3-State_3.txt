@@ -1,0 +1,16 @@
+state={
+	id=3
+	name="Space Coast"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 9870 10411 9798 9784
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

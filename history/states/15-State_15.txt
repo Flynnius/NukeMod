@@ -1,0 +1,16 @@
+state={
+	id=15
+	name="St. Lucie"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 1350 2586
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

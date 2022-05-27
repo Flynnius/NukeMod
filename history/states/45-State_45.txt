@@ -1,0 +1,16 @@
+state={
+	id=45
+	name="Davenport"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		6732 6501 6034 5657
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

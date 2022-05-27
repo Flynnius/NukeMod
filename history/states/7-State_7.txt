@@ -1,0 +1,16 @@
+state={
+	id=7
+	name="Deer Creek"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 5359 1120 3703 9885
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

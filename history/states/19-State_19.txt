@@ -1,0 +1,16 @@
+state={
+	id=19
+	name="Okeechobee"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 3709 6033
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

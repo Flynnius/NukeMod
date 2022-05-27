@@ -1,0 +1,16 @@
+state={
+	id=52
+	name="Coral Springs"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		9973 5907
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

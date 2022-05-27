@@ -1,0 +1,16 @@
+state={
+	id=33
+	name="Charlotte"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 6831 3276 6113
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=9
+	name="Lesser Bahamas"
+	history = {
+		owner = KYS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 10447 10446
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

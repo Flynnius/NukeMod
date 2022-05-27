@@ -1,0 +1,16 @@
+state={
+	id=32
+	name="Pine Island"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 10423
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

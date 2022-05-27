@@ -1,0 +1,16 @@
+state={
+	id=8
+	name="Greater Bahamas"
+	history = {
+		owner = KYS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 10431 10441
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

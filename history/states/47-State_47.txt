@@ -1,0 +1,16 @@
+state={
+	id=47
+	name="Plant City"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		9900 9889 9883 9882
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

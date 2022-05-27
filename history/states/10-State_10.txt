@@ -1,0 +1,16 @@
+state={
+	id=10
+	name="Everglades"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 4397 3021 383
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

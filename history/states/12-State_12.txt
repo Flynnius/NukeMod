@@ -1,0 +1,17 @@
+state={
+	id=12
+
+	name="Taylor"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 51 4488
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

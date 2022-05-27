@@ -1,0 +1,16 @@
+state={
+	id=2
+	name="Indian River"
+	history = {
+		owner = 
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			}
+	}
+	provinces={
+		 3098 2583
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}
